@@ -1,0 +1,57 @@
+{
+  "name": "E-Voting RT 006 RW 001 Jatiwarna",
+  "short_name": "E-Voting RT006",
+  "description": "Aplikasi E-Voting Ketua RT 006 / RW 001 Kelurahan Jatiwarna, Pondok Melati, Kota Bekasi — Periode 2026-2031",
+  "lang": "id",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#eef2f8",
+  "theme_color": "#0ea5e9",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mulai Memilih",
+      "short_name": "Voting",
+      "description": "Langsung ke halaman verifikasi NIK",
+      "url": "/#verifikasi",
+      "icons": [{ "src": "/img/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Leaderboard Hasil",
+      "short_name": "Leaderboard",
+      "description": "Pantau perolehan suara real-time",
+      "url": "/leaderboard",
+      "icons": [{ "src": "/img/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Login Panitia",
+      "short_name": "Admin",
+      "description": "Dashboard monitoring panitia",
+      "url": "/admin/login",
+      "icons": [{ "src": "/img/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
